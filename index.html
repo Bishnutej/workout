@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Plan</title>
+    <link rel="icon" href="img/2234900.png" type="img/icon.jpg"> <!-- Favicon link -->
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="A detailed workout plan for each day of the week, focusing on different muscle groups.">
+</head>
+<body>
+    <header>
+        <h1>Workout Plan</h1>
+    </header>
+    <nav>
+        <button class="tablink" onclick="openDay(event, 'day1')">Sunday</button>
+        <button class="tablink" onclick="openDay(event, 'day2')">Monday</button>
+        <button class="tablink" onclick="openDay(event, 'day3')">Tuesday</button>
+        <button class="tablink" onclick="openDay(event, 'day4')">Wednesday</button>
+        <button class="tablink" onclick="openDay(event, 'day5')">Thursday</button>
+        <button class="tablink" onclick="openDay(event, 'day6')">Friday</button>
+    </nav>
+    <main>
+        <div class="day" id="day1">
+            <h2>Day 1: Back & Biceps</h2>
+            <ul>
+                <li>Bent Over Row (Warm-up) - 2 sets 12-16 reps, 3 sets 8-10 reps</li>
+                <li>Wide Grip Lat Pulldown - 3 sets front, 3 sets back 10-12 reps</li>
+                <li>Seated Row - 3 sets close, 3 sets wide 10-12 reps</li>
+                <li>High Row - 4 sets 10-12 reps</li>
+                <li>Close Grip EZ Bar Curl - 4 sets 10-12 reps</li>
+                <li>Standing Dumbbell Curl - 4 sets 10-12 reps</li>
+                <li>Zottman Curl - 4 sets 10-12 reps</li>
+                <li>Concentration Curl - 4 sets 10-12 reps</li>
+                <li>Dumbbell Hammer Curl - 4 sets 10-12 reps</li>
+                <li>Cable Curl - 2 drop sets 15-20 reps</li>
+            </ul>
+        </div>
+        <div class="day" id="day2">
+            <h2>Day 2: Chest & Triceps</h2>
+            <ul>
+                <li>Smith Bench Press (Warm-up) - 2 sets 12-16 reps, 3 sets 8-10 reps</li>
+                <li>Smith Incline Bench Press - 4 sets 10-12 reps</li>
+                <li>Smith Decline Bench Press - 4 sets 10-12 reps</li>
+                <li>Cable Fly - 4 sets up, 4 sets down 10-12 reps</li>
+                <li>Pec Dec (Butterfly) - 4 sets 10-12 reps</li>
+                <li>Seated Dumbbell Tricep Extension - 4 sets 10-12 reps</li>
+                <li>Skull Crusher (EZ Bar) - 4 sets 10-12 reps</li>
+                <li>Lying Dumbbell Extension - 4 sets 10-12 reps</li>
+                <li>Overhead Tricep Extension - 4 sets 10-12 reps</li>
+                <li>Tricep Dip - 4 sets 10-12 reps</li>
+            </ul>
+        </div>
+        <div class="day" id="day3">
+            <h2>Day 3: Legs & Shoulders</h2>
+            <ul>
+                <li>Squat (Warm-up) - 2 sets 12-16 reps, 3 sets 8-10 reps</li>
+                <li>Goblet Squat - 4 sets 10-12 reps</li>
+                <li>Bulgarian Split Squat - 4 sets 10-12 reps</li>
+                <li>Single Leg Curl - 4 sets 10-12 reps</li>
+                <li>Hack Squat (Power Squat Machine) - 4 sets 10-12 reps</li>
+                <li>Military Press (Overhead Press) - 4 sets 10-12 reps</li>
+                <li>Dumbbell Lateral Raise - 4 sets 10-12 reps</li>
+                <li>Seated Dumbbell Press - 4 sets 10-12 reps</li>
+                <li>Cable/Barbell Front Raise - 4 sets 10-12 reps</li>
+                <li>Dumbbell Front Raise - 4 sets 10-12 reps</li>
+                <li>Incline Front Raise - 4 sets 10-12 reps</li>
+                <li>Cable/Barbell Upright Row - 4 sets 10-12 reps</li>
+            </ul>
+        </div>
+        <div class="day" id="day4">
+            <h2>Day 4: Back & Biceps</h2>
+            <ul>
+                <li>Reverse Grip Bent Over Row (Warm-up) - 2 sets 12-16 reps, 3 sets 8-10 reps</li>
+                <li>Close Grip Lat Pulldown - 4 sets 10-12 reps</li>
+                <li>T-Bar - 4 sets 10-12 reps</li>
+                <li>One Arm Dumbbell Row - 4 sets 10-12 reps</li>
+                <li>Low Row - 4 sets 10-12 reps</li>
+                <li>Reverse Butterfly - 4 sets 10-12 reps</li>
+                <li>Cross Body Hammer Curl - 4 sets 10-12 reps</li>
+                <li>Prone Incline Dumbbell Curl - 4 sets 10-12 reps</li>
+                <li>Barbell Curl - 4 sets 10-12 reps</li>
+                <li>Spider Curl - 4 sets 10-12 reps</li>
+            </ul>
+        </div>
+        <div class="day" id="day5">
+            <h2>Day 5: Chest & Triceps</h2>
+            <ul>
+                <li>Dumbbell Bench Press - 4 sets 10-12 reps</li>
+                <li>Incline Dumbbell Bench Press - 4 sets 10-12 reps</li>
+                <li>Decline Dumbbell Bench Press - 4 sets 10-12 reps</li>
+                <li>Dumbbell Fly - 4 sets 10-12 reps</li>
+                <li>Hammer Strength Incline & Decline - 4 sets 10-12 reps</li>
+                <li>Smith Machine Close Grip - 4 sets 10-12 reps</li>
+                <li>Tricep Kick Back - 4 sets 10-12 reps</li>
+                <li>Rope Tricep Extension - 4 sets 10-12 reps</li>
+                <li>Cable Cross Tricep Extension - 4 sets 10-12 reps</li>
+                <li>Straight Bar Tricep Extension - 4 sets 10-12 reps</li>
+            </ul>
+        </div>
+        <div class="day" id="day6">
+            <h2>Day 6: Legs & Shoulders</h2>
+            <ul>
+                <li>Front Squat (Warm-up) - 6-10 reps 3 sets</li>
+                <li>Leg Extension - 4 sets 10-12 reps</li>
+                <li>Leg Curl - 4 sets 10-12 reps</li>
+                <li>Leg Press - 4 sets 10-12 reps</li>
+                <li>Hack Squat - 4 sets 10-12 reps</li>
+                <li>Calf Raise - 4 sets 10-12 reps</li>
+                <li>Smith Machine Shoulder Press - 4 sets 10-12 reps</li>
+                <li>Arnold Press - 4 sets 10-12 reps</li>
+                <li>Single Arm Lateral Raise - 4 sets 10-12 reps</li>
+                <li>Landmine Press - 4 sets 10-12 reps</li>
+                <li>Dumbbell Upright Row - 4 sets 10-12 reps</li>
+                <li>Reverse Fly - 4 sets 10-12 reps</li>
+            </ul>
+        </div>
+    </main>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
